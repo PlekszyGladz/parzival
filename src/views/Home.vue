@@ -52,6 +52,7 @@
 
             <h4>Programmierung:</h4>
             <p><a href="https://pagina.gmbh">pagina GmbH, Publikationstechnologien, Tübingen</a></p>
+            <p>Nicolas Kessler</p>
 
             <h4>Design:</h4>
             <p>pagina GmbH</p>
