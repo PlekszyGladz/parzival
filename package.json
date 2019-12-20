@@ -1,22 +1,21 @@
 {
   "name": "dh-parzival",
   "version": "1.0.0",
-  "description": "The Parzival-Projekt – a genetic digital edition of Wolfram von Eschenbach's ‹Parzival›",
-  "repository": "git@code.pagina.gmbh:pagina-dh/dh-parzival.git",
-  "author": "pagina GmbH",
-  "license": "UNLICENSED",
   "private": true,
+  "description": "The Parzival-Projekt – a genetic digital edition of Wolfram von Eschenbach's ‹Parzival›",
+  "author": "pagina GmbH",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "babel-node --config-file ./babel-node.config.js src/build/data.js && vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "configure": "babel-node --config-file ./babel-node.config.js src/build/configure.js",
     "img2dzi": "babel-node --config-file ./babel-node.config.js src/build/img2dzi.js",
-    "img2ptif": "babel-node --config-file ./babel-node.config.js src/build/img2ptif.js",
-    "build": "babel-node --config-file ./babel-node.config.js src/build/data.js && vue-cli-service build",
-    "serve": "vue-cli-service serve",
-    "lint": "vue-cli-service lint"
+    "img2ptif": "babel-node --config-file ./babel-node.config.js src/build/img2ptif.js"
   },
   "dependencies": {
     "animate.css": "^3.7.0",
     "bulma": "^0.7.4",
+    "core-js": "^3.4.3",
     "csv": "^5.1.1",
     "del": "^4.1.0",
     "escape-html": "^1.0.3",
@@ -44,9 +43,9 @@
   "devDependencies": {
     "@babel/node": "^7.2.2",
     "@babel/polyfill": "^7.4.3",
-    "@vue/cli-plugin-babel": "^3.6.0",
-    "@vue/cli-plugin-eslint": "^3.6.0",
-    "@vue/cli-service": "^3.6.0",
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "coffeescript": "^2.4.1",
@@ -54,5 +53,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "license": "UNLICENSED",
+  "repository": "git@code.pagina.gmbh:pagina-dh/dh-parzival.git"
 }
