@@ -77,11 +77,13 @@
               <li><span class="anweisung">kursiv</span> = Anweisungen an den Rubrikator.</li>
             </ul>
 
-            <p>Die unterschiedlichen Korrekturarten werden wie folgt unterschieden:</p>
+            <p>Die Darstellung der Korrekturarten (jeweils ganzes korrigiertes Wort markiert) wird wie folgt unterschieden:</p>
             <ul class="parzival-sample">
-              <li><span class="damage">grau hinterlegt</span> und <span class="corr">unterpunktet</span> = Korrektur durch aufgeklebtes Pergamentstück;</li>
-              <li><span class="damage">grau hinterlegt</span> und <span class="corr">unterpunktet</span> = Korrektur durch Rasur;</li>
-              <li><span class="del">durchgestrichen</span> = Korrektur durch Streichung.</li>
+              <li><span class="corr">unterpunktet</span> = Korrektur durch Ersetzung;</li>
+              <li><span class="corr">unterpunktet</span>, betreffende Stelle grau <span class="damage">hinterlegt</span> und <span class="klebung">eingerahmt</span> = Korrektur durch aufgeklebtes Pergamentstück;</li>
+              <li><span class="corr">unterpunktet</span>, betreffende Stelle grau <span class="damage">hinterlegt</span> = Korrektur durch Rasur;</li>
+              <li><span class="corr">unterpunktet</span>, <span class="del">durchgestrichen</span> = Korrektur durch unersetzte Tilgung;</li>
+              <li><span class="corr">unterpunktet</span>, in <span class="add">grüner Farbe</span> = Korrektur durch Hinzufügung.</li>
             </ul>
 
             <p>Die Verszählung erfolgt beim <b>›Nuwen Parzifal‹ (NP)</b> nach
@@ -117,7 +119,7 @@
 
             <p>Die Ergänzung [1] am Ende einer Versnummer bezeichnet einen Plusvers oder einen doppelt abgeschriebenen Vers.</p>
 
-            <p>Zwischen senkrechte Striche gesetzt erscheinen in Kursivdruck erläuternde Zusätze wie Inhaltsangaben und Hinweise auf nicht transkribierte Abschnitte. Diese Erläuterungen werden je nach Position mit den Versnummerendungen [0], [01], [02], [1] oder [2] bezeichnet.</p>
+            <p>Zwischen senkrechte Striche gesetzt erscheinen in Kursivdruck erläuternde Zusätze wie Inhaltsangaben, Hinweise auf nicht transkribierte Abschnitte und in Hs. V' Blattangaben zu den Anweisungen für die Überschriften. Diese Erläuterungen werden je nach Position mit den Versnummerendungen [0], [01], [02], [1] oder [2] bezeichnet.</p>
           </div>
         </div>
       </div>
